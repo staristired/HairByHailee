@@ -2,12 +2,13 @@ body {
     margin: auto;
     width: 960px;
     padding: 50px;
-    background-image: url(images/70s-background-2nb7504wm1p45l3u.jpg);
+    background-image: url(/images/70s-background-2nb7504wm1p45l3u.jpg);
 }
 
 
 h1 {
     font-family: Mainstay; 
+    src: url(../HairByHailee/fonts/Mainstay.ttf) format(truetype);
     font-size: 100px;
     text-align: center;
 }
@@ -42,6 +43,7 @@ h1 {
     padding: 25px  20px;
     font-size: 15px;
     font-family: PT Sans;
+    src: url(../HairByHailee/fonts/PTSans-Regular.ttf) format(truetype);
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -56,13 +58,15 @@ h1 {
 
 h2 {
     font-family: Mighty Souly;
+    src: url(../HairByHailee/fonts/Mighty\ Souly.otf) format(onetype);
     text-align: center;
     font-size: 35px;
 }
 
 
 h4 {
-    font-family: Mighty Souly   ;
+    font-family: Mighty Souly;
+    src: url(../HairByHailee/fonts/Mighty\ Souly.otf) format(onetype);
     font-size: 27px;
     text-align: center;
     
@@ -71,12 +75,14 @@ h4 {
 
 p {
     font-family: PT Sans; 
+    src: url(../HairByHailee/fonts/PTSans-Regular.ttf) format(truetype);
     text-shadow: 1px 1px;
 }
 
 
 a {
     font-family: PT Sans;
+    src: url(../HairByHailee/fonts/PTSans-Regular.ttf) format(truetype);
 }
 
 
@@ -114,6 +120,7 @@ a {
 
 .desc {
     font-family: Mighty Souly;
+    src: url(../HairByHailee/fonts/Mighty\ Souly.otf) format(onetype);
     text-shadow: none;
     font-size: 24px;
     text-align: center;
